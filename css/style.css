@@ -15,7 +15,52 @@ Reset
 Debug
 ----------
 */
+.debug div.nav {
+    background-color: #d9a520;
+}
 
+.debug header {
+    background-color: #aed8e5;
+    height: 610px;
+}
+
+.debug .hero {
+    background-color: #04008b;
+    height: 520px;
+}
+
+.debug .box1 {
+    background-color: #ee82ed;
+    height: 415px;
+}
+
+.debug .big-main {
+    height: 520px;
+    background-color: #1f90ff;
+}
+
+.debug .small-main {
+    height: 520px;
+    background-color: #ffc0ca;
+}
+
+.debug div.box2:nth-child(2) {
+    background-color: #d3d3d3;
+}
+
+.debug div.box2:first-child,
+.debug div.box2:last-child {
+    background-color: white;
+}
+
+.debug .box3 {
+    background-color: #d3d3d3;
+}
+
+.debug div.closed-box {
+    background-color: #228b22;
+    height: 930px;
+}
 
 /*
 ----------
