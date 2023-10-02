@@ -15,9 +15,6 @@ Reset
 Debug
 ----------
 */
-.debug div.nav {
-    background-color: #d9a520;
-}
 
 .debug header {
     background-color: #aed8e5;
@@ -27,11 +24,14 @@ Debug
 .debug .hero {
     background-color: #04008b;
     height: 520px;
+    width: 100%;
 }
 
 .debug .box1 {
     background-color: #ee82ed;
     height: 415px;
+    width: 1250px;
+    border: 2px dashed black;
 }
 
 .debug .big-main {
@@ -62,11 +62,20 @@ Debug
     height: 930px;
 }
 
+.logo,
+.ham,
+.login {
+    background-color: #d9a520;
+    border: 2px dashed black;
+}
 /*
 ----------
 Common
 ----------
 */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 
 /*
@@ -75,6 +84,47 @@ Header
 ----------
 */
 
+.nav {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto 20px;
+
+}
+
+div button[type="button"] {
+    all: unset;
+    background-color: #d9a520;
+    border: 2px dashed black;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: end;
+}
+
+.logo, div button[type="button"] {
+    flex-grow: 1;
+}
+
+.ham {
+    flex-grow: 3;
+    text-align: center;
+}
+
+
+.ham, .logo {
+    padding: 10px 20px;
+}
+
+.box-h {
+    padding: 20px 0 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
 /*
 ----------
