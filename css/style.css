@@ -77,16 +77,8 @@ Debug
     border: 2px dashed black;
 }
 
-
-
-
-
-
-
-
 .debug .box-f{
     background-color: #23272a;
-
 }
 
 .debug .box4 {
@@ -113,23 +105,11 @@ Debug
     background-color: #7effd4;
 }
 
-
-
-
-
-
 .debug .foot div.foot-logo,
 .debug .foot div.foot-bottone{
     background-color: #ffb6c1;
     border: 2px dashed black;
 }
-
-
-
-
-
-
-
 
 /*
 ----------
@@ -192,6 +172,7 @@ Main
 sezione
 ----------
 */
+
 .section-box {
     display: flex;
     align-items: center;
@@ -226,15 +207,12 @@ sezione
 .closed-box {
     width: 1245px;
 }
+
 /*
 ----------
 Footer
 ----------
 */
-
-
-
-
 
 .box4 {
     display: flex;
