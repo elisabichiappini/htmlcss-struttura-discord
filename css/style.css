@@ -93,6 +93,8 @@ Debug
 
 .debug .box-f .box4 .small-box-footer:first-child{
     background-color: #f08080;
+    width: 595px;
+    border: 2px dashed black;
 }
 
 /*
@@ -197,9 +199,17 @@ Footer
 
 .box4 {
     display: flex;
+    width: 1240px;
 }
 
 .box4:first-child{
     flex-grow: 1;
-
 }
+
+.box4 .small-box-footer:nth-child(2),
+.box4 .small-box-footer:nth-child(3),
+.box4 .small-box-footer:nth-child(4) {
+    width: 215px;
+}
+
+
