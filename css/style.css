@@ -86,7 +86,7 @@ Debug
 
 .debug .box-f{
     background-color: #23272a;
-    height: 775px;
+
 }
 
 .debug .box4 {
@@ -111,7 +111,6 @@ Debug
 
 .debug .foot {
     background-color: #7effd4;
-    height: 75px;
 }
 
 
@@ -240,7 +239,7 @@ Footer
 .box4 {
     display: flex;
     width: 1240px;
-    padding: 10px 0 35px;
+    padding: 10px 0 40px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -257,12 +256,21 @@ Footer
 
 .foot {
     width: 1250px;    
-    margin: 0 auto;
+    margin: 30px auto 0;
+    padding: 20px 0;
 
 }
 
 .foot-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 
 }
+
+.foot div.foot-logo, 
+.foot div.foot-bottone {
+    padding: 10px 15px;
+}
+
