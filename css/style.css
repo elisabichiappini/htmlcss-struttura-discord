@@ -72,16 +72,28 @@ Debug
     border: 2px dashed black;
 }
 
-
-
-
 .debug div.closed-box {
     height: 935px;
     border: 2px dashed black;
 }
 
+.debug .box-f{
+    background-color: #23272a;
+    height: 780px;
+}
+
+.debug .box4 {
+    height: 600px;
+}
 
 
+.debug .box-f div.small-box-footer{
+    background-color: #21b2aa;
+}
+
+.debug .box-f .box4 .small-box-footer:first-child{
+    background-color: #f08080;
+}
 
 /*
 ----------
@@ -122,7 +134,6 @@ div button[type="button"] {
     flex-grow: 3;
     text-align: center;
 }
-
 
 .ham, .logo {
     padding: 10px 20px;
@@ -183,3 +194,12 @@ sezione
 Footer
 ----------
 */
+
+.box4 {
+    display: flex;
+}
+
+.box4:first-child{
+    flex-grow: 1;
+
+}
