@@ -24,28 +24,32 @@ Debug
 .debug .hero {
     background-color: #04008b;
     height: 520px;
-    width: 100%;
 }
 
 .debug .box1 {
     background-color: #ee82ed;
     height: 415px;
-    width: 1250px;
+    width: 945px;
     border: 2px dashed black;
 }
 
+
 .debug .big-main {
-    height: 520px;
     background-color: #1f90ff;
+    border: 2px dashed black;
 }
 
 .debug .small-main {
-    height: 520px;
     background-color: #ffc0ca;
+    border: 2px dashed black;
 }
 
-.debug div.box2:nth-child(2) {
+.debug div.section-box:nth-child(2) {
     background-color: #d3d3d3;
+}
+
+.debug div.section-box:nth-child(2) .small-main{
+    order:-1;
 }
 
 .debug div.box2:first-child,
@@ -77,7 +81,6 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-
 /*
 ----------
 Header
@@ -89,7 +92,6 @@ Header
     width: 1200px;
     justify-content: center;
     margin: 0 auto 20px;
-
 }
 
 div button[type="button"] {
@@ -126,11 +128,33 @@ div button[type="button"] {
     flex-direction: row;
 }
 
+
 /*
 ----------
 Main
+sezione
 ----------
 */
+.section-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.box2 {
+    display: flex;
+    width: 1250px;
+}
+
+.debug .big-main {
+    height: 520px;
+    flex-grow: 1;
+}
+
+.debug .small-main {
+    height: 520px;
+    width: 500px;
+}
 
 
 /*
