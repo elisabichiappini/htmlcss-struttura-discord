@@ -33,7 +33,6 @@ Debug
     border: 2px dashed black;
 }
 
-
 .debug .big-main {
     background-color: #1f90ff;
     border: 2px dashed black;
@@ -72,6 +71,18 @@ Debug
     background-color: #d9a520;
     border: 2px dashed black;
 }
+
+
+
+
+.debug div.closed-box {
+    height: 935px;
+    border: 2px dashed black;
+}
+
+
+
+
 /*
 ----------
 Common
@@ -128,7 +139,6 @@ div button[type="button"] {
     flex-direction: row;
 }
 
-
 /*
 ----------
 Main
@@ -141,22 +151,33 @@ sezione
     justify-content: center;
     padding: 50px 0;
 }
+
 .box2 {
     display: flex;
     width: 1250px;
 }
 
-.debug .big-main {
+.big-main {
     height: 520px;
     flex-grow: 1;
 }
 
-.debug .small-main {
+.small-main {
     height: 520px;
     width: 500px;
 }
 
+.box3{
+    display: flex;
+    padding: 45px 0;
+    align-items: center;
+    justify-content: center;
+}
 
+.closed-box {
+    width: 1245px;
+
+}
 /*
 ----------
 Footer
